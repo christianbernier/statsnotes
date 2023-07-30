@@ -1,0 +1,66 @@
+#not-found-page--container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--c-primary-200);
+  gap: var(--s-lg);
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#not-found-page--title {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 5rem;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: -2px;
+  gap: 20px;
+}
+
+#not-found-page--title-2 {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+}
+
+#not-found-page--description-container {
+  margin: var(--s-lg) 0;
+}
+
+#not-found-page--description {
+  font-size: 1.3rem;
+  padding: 0 var(--s-lg);
+  text-align: center;
+}
+
+#not-found--home-button {
+  padding: var(--s-lg) var(--s-md);
+  
+  background-color: var(--c-neutral-100);
+  color: var(--c-primary-950);
+  font-size: 1rem;
+  font-weight: 700;
+
+  outline: none;
+  border: 2px solid var(--c-primary-800);
+  border-radius: 3px;
+  box-shadow: 5px 5px 0 var(--c-primary-300);
+  transition: box-shadow 0.2s ease-in-out;
+
+  cursor: pointer;
+}
+
+#not-found--home-button:hover {
+  background-color: var(--c-neutral-200);
+  box-shadow: 0 0 0 var(--c-primary-300);
+}

@@ -1,0 +1,6 @@
+.notes-grid--items-container {
+  display: flex;
+  flex-direction: column;
+  padding: var(--s-md);
+  gap: var(--s-md);
+}

@@ -1,0 +1,42 @@
+#home-page--container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--c-primary-200);
+  gap: var(--s-lg);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding: var(--s-xl) 0;
+}
+
+#home-page--title {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  font-size: 6rem;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: -2px;
+}
+
+#home-page--title-top {
+  text-align: left;
+}
+
+#home-page--title-bottom {
+  text-align: right;
+  margin-top: -40px;
+}
+
+#home-page--description {
+  font-size: 1.3rem;
+  padding: 0 var(--s-lg);
+  text-align: center;
+}
+
+#home-page--by-line {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}

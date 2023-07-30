@@ -1,0 +1,24 @@
+.notes-dropdown--container {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--s-md);
+  padding: 0 var(--s-md);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.notes-dropdown--select {
+  font-size: 1.2rem;
+  background-color: var(--c-neutral-100);
+  padding: var(--s-sm) var(--s-md);
+  outline: none;
+  border: 2px solid var(--c-primary-800);
+  border-radius: 3px;
+  box-shadow: 5px 5px 0 var(--c-primary-400);
+  width: 200px;
+  word-wrap: break-word;
+  white-space: normal;
+  height: 100%;
+}

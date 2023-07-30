@@ -1,0 +1,30 @@
+.notes-list-item {
+  width: 100%;
+  padding: var(--s-lg) var(--s-md);
+  
+  background-color: var(--c-neutral-100);
+  color: var(--c-primary-950);
+  font-size: 1rem;
+  font-weight: 700;
+
+  outline: none;
+  border: 2px solid var(--c-primary-800);
+  border-radius: 3px;
+  box-shadow: 5px 5px 0 var(--c-primary-300);
+  transition: box-shadow 0.2s ease-in-out;
+
+  cursor: pointer;
+}
+
+.notes-list-item:hover {
+  background-color: var(--c-neutral-200);
+  box-shadow: 0 0 0 var(--c-primary-300);
+}
+
+.notes-list-item[data-selected = true] {
+  background-color: var(--c-primary-200);
+}
+
+.notes-list-item[data-selected = true]:hover {
+  background-color: var(--c-primary-300);
+}

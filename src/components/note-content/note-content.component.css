@@ -1,0 +1,75 @@
+.note-content {
+  max-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: var(--s-md);
+}
+
+.note-content h1:not(:first-of-type) {
+  margin-top: var(--s-xl);
+}
+
+.note-content h2 {
+  margin-top: var(--s-md);
+}
+
+.note-content p {
+  line-height: 1.8;
+  letter-spacing: 0.2px;
+  margin-left: var(--s-lg);
+}
+
+.note-content h1 + p {
+  margin-top: var(--s-md);
+}
+
+.note-content p + p {
+  margin-top: var(--s-lg);
+}
+
+.katex-html {
+  display: none;
+}
+
+.math.math-display {
+  padding: var(--s-md) 0;
+}
+
+ol, ul {
+  margin: var(--s-lg) var(--s-xl);
+}
+
+li {
+  margin: var(--s-md) 0;
+}
+
+table {
+  margin: var(--s-lg) auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 2px solid var(--c-primary-800);
+  padding: var(--s-md) var(--s-lg);
+}
+
+th, td:first-child {
+  background-color: var(--c-primary-200);
+}
+
+@media only screen and (max-width: 600px) {
+  .note-content {
+    height: calc(100vh - 200px);
+    padding-bottom: 100px;
+  }
+
+  table, .math-display math {
+    display: block !important;
+    width: max-content !important;
+    max-width: 100% !important;
+    overflow-x: auto !important;
+    overflow-y: hidden;
+    margin: 0 auto;
+  }
+}
