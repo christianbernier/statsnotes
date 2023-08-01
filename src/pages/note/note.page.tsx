@@ -32,7 +32,7 @@ export const NotePage: FC = () => {
     const notesList = document.querySelector('.notes-list--scroll-wrapper');
     const button = document.querySelector(`#notes-list-item--id-${noteId}`);
     if (notesList && button) {
-      notesList.scrollTo({ top: button.getBoundingClientRect().top + 250 });
+      notesList.scrollTo({ top: button.getBoundingClientRect().top - 50 });
     }
   }, [noteId]);
 
